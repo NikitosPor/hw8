@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a86b4f6-e92e-4184-b43a-773e96ef905a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build/entrypoint/build.dart.snapshot" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/entrypoint/build.dart.snapshot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum.deps" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build_resolvers/sdk.sum.deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/bin/build_runner/build_runner.dart-2.14.0-321.0.dev.snapshot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/incremental/build_runner/build_runner.dart.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/pub/incremental/build_runner/build_runner.dart.incremental.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test_cache/build/c075001b96339384a97db4862b8ab8db.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/test_cache/build/c075001b96339384a97db4862b8ab8db.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/unit_test_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/build/unit_test_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/src/repository/async_cocktail_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/src/repository/async_cocktail_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/asyncrepo_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/asyncrepo_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/asyncrepo_test.mocks.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +33,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -59,7 +86,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,21 +102,16 @@
       <recent name="$PROJECT_DIR$/lib/core/src/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\60058838\IdeaProjects\FlutterHomeWork\8th_HW\otus-cocktails-application\lesson_25\homework" />
       <recent name="$PROJECT_DIR$/test/golden_tests" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/lib/uikit" />
       <recent name="$PROJECT_DIR$/test/golden1" />
-      <recent name="$PROJECT_DIR$/lib/golden" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter Test.contain favorite icon button for cocktail from favorites">
+  <component name="RunManager" selected="Flutter Test.fetchCocktailsByCocktailCategory should">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CocktailDetailPage should" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="CocktailDetailPage should" />
-      <option name="testFile" value="$PROJECT_DIR$/test/widgettests.dart" />
       <method v="2" />
     </configuration>
     <configuration name="FetchCocktailDetail should" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
@@ -97,9 +119,14 @@
       <option name="testFile" value="$PROJECT_DIR$/test/asyncrepo_test.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="contain favorite icon button for cocktail from favorites" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="contain favorite icon button for cocktail from favorites" />
-      <option name="testFile" value="$PROJECT_DIR$/test/widget_tests_test.dart" />
+    <configuration name="fetchCocktailsByCocktailCategory should" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="fetchCocktailsByCocktailCategory should" />
+      <option name="testFile" value="$PROJECT_DIR$/test/asyncrepo_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="returns an Iterable&lt;CocktailDefinition?&gt; if the http call completes successfully" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="returns an Iterable&lt;CocktailDefinition?&gt; if the http call completes successfully" />
+      <option name="testFile" value="$PROJECT_DIR$/test/asyncrepo_test.dart" />
       <method v="2" />
     </configuration>
     <configuration name="tests in asyncrepo_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
@@ -120,23 +147,13 @@
       <option name="testFile" value="$PROJECT_DIR$/test/widget_tests_test.dart" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Flutter.main.dart" />
-      <item itemvalue="Flutter Test.tests in test" />
-      <item itemvalue="Flutter Test.tests in fancy_button_test.dart" />
-      <item itemvalue="Flutter Test.CocktailDetailPage should" />
-      <item itemvalue="Flutter Test.tests in widget_tests_test.dart" />
-      <item itemvalue="Flutter Test.tests in asyncrepo_test.dart" />
-      <item itemvalue="Flutter Test.FetchCocktailDetail should" />
-      <item itemvalue="Flutter Test.contain favorite icon button for cocktail from favorites" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.contain favorite icon button for cocktail from favorites" />
+        <item itemvalue="Flutter Test.fetchCocktailsByCocktailCategory should" />
+        <item itemvalue="Flutter Test.tests in asyncrepo_test.dart" />
+        <item itemvalue="Flutter Test.returns an Iterable&lt;CocktailDefinition?&gt; if the http call completes successfully" />
         <item itemvalue="Flutter Test.FetchCocktailDetail should" />
         <item itemvalue="Flutter Test.tests in widget_tests_test.dart" />
-        <item itemvalue="Flutter Test.tests in asyncrepo_test.dart" />
-        <item itemvalue="Flutter Test.CocktailDetailPage should" />
       </list>
     </recent_temporary>
   </component>

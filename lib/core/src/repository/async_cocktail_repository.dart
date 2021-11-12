@@ -11,6 +11,7 @@ import 'package:cocktail_app_tests/core/src/model/cocktail_type.dart';
 import 'package:cocktail_app_tests/core/src/model/glass_type.dart';
 import 'package:cocktail_app_tests/core/src/model/ingredient_definition.dart';
 
+
 class AsyncCocktailRepository {
   static const String _apiKey =
       'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b';
@@ -46,7 +47,7 @@ class AsyncCocktailRepository {
     return result;
   }
 
-  Future<Iterable<CocktailDefinition?>> fetchCocktailsByCocktailCategory(
+  Future<Iterable<CocktailDefinition?>> fetchCocktailsByCocktailCategory(http.Client client,
       CocktailCategory category) async {
     var result = <CocktailDefinition>[];
 
@@ -56,12 +57,8 @@ class AsyncCocktailRepository {
     await Future.delayed(Duration(seconds: 2));
     final url = Uri.parse(
         'https://the-cocktail-db.p.rapidapi.com/filter.php?c=${category.value}');
-    var response = await http.get(
-      url,
-      headers: {
-        'x-rapidapi-key': 'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b',
-      },
-    );
+
+    var response = await client.get(url, headers: _headers);
     if (response.statusCode == HttpStatus.ok) {
       final jsonResponse = convert.jsonDecode(response.body);
       var drinks = jsonResponse['drinks'] as Iterable<dynamic>;
@@ -85,18 +82,14 @@ class AsyncCocktailRepository {
     return result;
   }
 
-  Future<Iterable<CocktailDefinition>> fetchCocktailsByCocktailType(
+  Future<Iterable<CocktailDefinition>> fetchCocktailsByCocktailType(http.Client client,
       CocktailType cocktailType) async {
     var result = <CocktailDefinition>[];
 
     final url = Uri.parse(
         'https://the-cocktail-db.p.rapidapi.com/filter.php?a=${cocktailType.value}');
-    var response = await http.get(
-      url,
-      headers: {
-        'x-rapidapi-key': 'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b',
-      },
-    );
+    var response = await client.get(url, headers: _headers);
+
     if (response.statusCode == HttpStatus.ok) {
       final jsonResponse = convert.jsonDecode(response.body);
       var drinks = jsonResponse['drinks'] as Iterable<dynamic>;
